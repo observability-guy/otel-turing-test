@@ -1,0 +1,14 @@
+System architecture
+
+The system comprises a number of microservices which communicate over http or grpc.
+
+The microservices are written in a number of different languages including typescript, React and C#.
+
+The system uses a Valkey cache and Kafka for messaging.
+
+It also runs flagd for managing feature flags.
+
+It will run in an Azure AKS cluster.
+
+
+

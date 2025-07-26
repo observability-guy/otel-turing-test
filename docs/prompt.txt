@@ -1,0 +1,63 @@
+Prompt
+
+Your role is to act as an observability engineer. You need to implement an observability strategy for a microservices application. The application is a web site for an online retailer which receives around 5,000 visitors each day.
+
+Functional requirements:
+
+Page load for user facing pages must be 0.7 seconds or less
+
+The system may have up to 80 concurrent users
+
+The system must have 99.9% uptime.
+
+Observability system requirements. The system will be monitored by a team of two SRE's. They have the following needs:
+
+They need to be able to identify root causes quickly
+
+they need to be able to view the health of services and infrastructure
+they need to be notified if thresholds for metrics such as CPU, memory, latency are exceeding thresholds
+
+They need to identify bottlenecks and outages
+
+They need to be able to query logs easily and quickly
+
+They need to be able to correlate between telemetry signals
+
+They need Runtime User Monitoring
+
+
+
+
+The application will be running in an Azure AKS kubernetes cluster.
+
+The company you are building the solution for has a budget of $150k per year to pay for observability costs.
+
+You may opt for an Open Source solution or a SaaS solution. You may use one full stack system or combine a number of separate components.
+
+This will involve:
+
+provide a rationale for your strategy and choice of product(s)
+
+you need to define which alerts to create
+
+you need to define priorities for system errors
+
+you need to define acceptable performance measures
+
+you need to be sure that the system can effectively monitor both the infrastructure and the services
+
+you 
+
+alerts
+
+defining what telenetry will be collected, how it will be collected and ingested by the observability system
+
+dashboards
+
+you need to costs
+
+
+
+This is a link to the GitHub repo containing the source code for the application:
+
+https://github.com/observability-guy/otel-turing-test
